@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--links to Bootstrap and style sheet-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!--Bootstrap collapsable navbar with links to About Me and contacts-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white bg-info" href="#">Michael Whitmer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!--Main container everything will sit in-->
+      <div id="port" class="container mb-5 mt-5">
+        <h1 class="text-info">Portfolio</h1>
+        <hr />
+        <!--Three rows with pictures-->
+        <!--This is the first row-->
+        <div class="row">
+          <!--this is the left column is row 1-->
+          <div class="col-md-6">
+          <div class="w-50 text-center p-2 h1">Code Refactor</div>
+            <img
+              class="w-50"
+              
+              src="http://placehold.it/350x350"
+              alt="thumbnail of homework 1"
+            />
+            
+            <a href="http://www.google.com"target="_blank"><button type="button"class="d-block w-50">Live Site</button></a> 
+            <a href="http://www.google.com"target="_blank"><button type="button"class="d-block w-50">Repository</button></a>
+          </div>
+          <!--This is the right column is row 1 -->
+          <div class="col-md-6">
+            <div class="w-50 text-center p-2 h1">Code Refactor</div>
+            <img
+              class="w-50"
+              src="http://placehold.it/350x350"
+              alt="thumbnail of"
+            /> 
+            <button type="button"class="d-block w-50">Live Site</button>
+            <button type="button"class="d-block w-50">Repository</button>
+          </div>
+        </div>
+        <!--This is row 2-->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="w-50 text-center p-2 h1">Code Refactor</div>
+            <img
+              class="w-50"
+              src="http://placehold.it/350x350"
+              alt="thumbnail of"
+            /> 
+            <button type="button"class="d-block w-50">Live Site</button>
+            <button type="button"class="d-block w-50">Repository</button>
+          </div>
+          <div class="col-md-6">
+            <div class="w-50 text-center p-2 h1">Code Refactor</div>
+            <img
+              class="w-50"
+              src="http://placehold.it/350x350"
+              alt="thumbnail of"
+            /> 
+            <button type="button"class="d-block w-50">Live Site</button>
+            <button type="button"class="d-block w-50">Repository</button>
+          </div>
+        </div>
+        <!--This is row 3-->
+      <div class="row">
+         <div class="col-md-6">
+            <div class="w-50 text-center p-2 h1">Code Refactor</div>
+            <img
+              class="w-50"
+              src="http://placehold.it/350x350"
+              alt="thumbnail of"
+            /> 
+            <button type="button"class="d-block w-50">Live Site</button>
+            <button type="button"class="d-block w-50">Repository</button>
+          </div>
+        <div class="col-md-6">
+          <div class="w-50 text-center p-2 h1">Code Refactor</div>
+          <img
+            class="w-50"
+            src="http://placehold.it/350x350"
+            alt="thumbnail of"
+          /> 
+          <button type="button"class="d-block w-50">Live Site</button>
+          <button type="button"class="d-block w-50">Repository</button>
+        </div>
+      </div>
+    </main>
+    <!--sitcky footer-->
+    <footer class="card-footer fixed-bottom">
+      <span class="bg-light text-muted card text-center"
+        >Not actually copyright or anything</span
+      >
+    </footer>
+  </body>
+</html>
